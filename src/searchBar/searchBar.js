@@ -1,9 +1,9 @@
 // SearchBar.js
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { setSearchTerm } from "../Action/actions";
 import "./searchBar.css";
 import { SearchIcon } from "@chakra-ui/icons";
+import { setSearchTerm } from "../Action/action";
 
 const SearchBar = () => {
   const dispatch = useDispatch();

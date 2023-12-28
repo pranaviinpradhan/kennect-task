@@ -1,8 +1,8 @@
 // CommentForm.js
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addComment } from "../Action/actions";
 import "./commentForm.css";
+import { addComment } from "../Action/action";
 
 const CommentForm = ({ postId }) => {
   const dispatch = useDispatch();

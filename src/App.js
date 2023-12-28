@@ -4,9 +4,9 @@ import { useNavigate } from "react-router-dom";
 import { Provider, useDispatch } from "react-redux";
 
 import { Center } from "@chakra-ui/react";
-import { userName } from "./Action/actions";
 import "./App.css";
 import store from "./store";
+import { userName } from "./Action/action";
 
 const App = () => {
   const dispatch = useDispatch();

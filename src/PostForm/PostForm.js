@@ -1,9 +1,9 @@
 // PostForm.js
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addPost } from "../Action/actions";
 import "./PostForm.css";
 import { Center } from "@chakra-ui/react";
+import { addPost } from "../Action/action";
 
 const PostForm = () => {
   const dispatch = useDispatch();

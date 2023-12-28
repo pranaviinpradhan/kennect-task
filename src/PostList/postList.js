@@ -1,9 +1,9 @@
 // PostList.js
 import React from "react";
 import { useSelector } from "react-redux";
-import CommentForm from "../commentForm/commentForm";
 import "./postList.css";
 import { Center } from "@chakra-ui/react";
+import CommentForm from "../commentsForm/commentForm";
 
 const PostList = () => {
   const posts = useSelector((state) => state.posts);
