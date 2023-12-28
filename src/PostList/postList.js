@@ -44,8 +44,23 @@ const PostList = () => {
                 <p class="description">{post.message}</p>
                 {post.comments && (
                   <span>
+                    <p
+                      style={{
+                        fontSize: "12px",
+                        margin: "10px",
+                        textAlign: "left",
+                      }}
+                    >
+                      {" "}
+                      Comments
+                    </p>
                     {post.comments.map((comment, index) => (
                       <li
+                        style={{
+                          fontSize: "11px",
+                          margin: "10px",
+                          textAlign: "left",
+                        }}
                         key={index}
                       >{`${userName.userName}: ${comment.text}`}</li>
                     ))}

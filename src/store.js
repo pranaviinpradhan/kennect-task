@@ -1,7 +1,7 @@
 // store.js
-import { createStoreHook } from "react-redux";
+import { createStore } from "redux";
 import rootReducer from "./reducer";
 
-const store = createStoreHook(rootReducer);
+const store = createStore(rootReducer);
 
 export default store;
